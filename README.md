@@ -10,6 +10,7 @@ This project is a chatbot API designed to run locally, utilizing .NET for the ba
 The backend is built using **.NET** and provides API endpoints for handling chatbot interactions. It connects to a database for storing user interactions and configurations.
 
 ### Technologies Used:
+- **AI Model (Hermes-2-Pro-Mistral-7B)
 - **.NET Core** (Latest Version)
 - **Entity Framework** for database interaction
 - **Microsoft SQL** 
