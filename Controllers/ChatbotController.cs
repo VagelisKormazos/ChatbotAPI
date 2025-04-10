@@ -9,7 +9,7 @@ namespace ChatbotAPI.Controllers
     [ApiController]
     public class ChatbotController : ControllerBase
     {
-        private readonly string _pythonScriptPath = @"C:\Users\v.kormazos\Desktop\Projects\ChatbotAPI\chat.py"; 
+        private readonly string _pythonScriptPath = @"C:\Users\THIS\Desktop\Projects\ChatbotAPI\chat.py";  // Add USER
 
         private readonly ChatbotDbContext _context;
 
@@ -41,7 +41,7 @@ namespace ChatbotAPI.Controllers
         {
             try
             {
-                string pythonExePath = @"C:\Users\v.kormazos\AppData\Local\Programs\Python\Python313\python.exe";  
+                string pythonExePath = @"C:\Users\THIS\AppData\Local\Programs\Python\Python313\python.exe";  // Add USER
 
                 var startInfo = new ProcessStartInfo
                 {
