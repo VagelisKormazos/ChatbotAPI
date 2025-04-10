@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = "Server=localhost;Database=ChatbotDB;User Id=sa;Password=1234vk!@;TrustServerCertificate=True;";
+var connectionString = "Server=localhost;Database=ChatbotDB;User Id=sa;Password=******;TrustServerCertificate=True;";
 builder.Services.AddDbContext<ChatbotDbContext>(options =>
     options.UseSqlServer(connectionString));
 
